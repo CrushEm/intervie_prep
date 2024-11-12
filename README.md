@@ -37,11 +37,13 @@ cd mini-product-catalog
 
 ```
 <br>
+
 ### Install dependencies:
 ```
 npm install
 ```
 <br>
+
 ### Start the app:
 ```
 npm start
@@ -63,18 +65,21 @@ PORT=3001 npm start
 
 The `interview-prep/src/jstots_examples` folder contains older JavaScript/TypeScript example files used for practice. Each of these files can be executed directly from the command line using tsx, a tool that allows TypeScript execution in a Node environment.
 <br>
+
 ### Prerequisites
 To run these examples, you need to have `tsx` installed globally or locally in the project. If not installed, run:
 ```
 npm install -g tsx
 ```
 <br>
+
 ## Running Example Files
 To run a specific file from the `jstots_examples` directory, navigate to `interview-prep/src/jstots_examples` and use the following command:
 ```
 tsx <filename>
 ```
 <br>
+
 Example:
 
 To run a file named example.ts in the jstots_examples folder, use:

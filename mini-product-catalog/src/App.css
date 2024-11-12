@@ -1,0 +1,14 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.View-Product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.listItem{
+display: flex;
+flex-direction: row;
+margin: 5px;
+}

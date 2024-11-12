@@ -1,4 +1,4 @@
-# Interview Prep README
+# README - Interview Prep 
 
 This repository contains two separate applications: interview-prep and mini-product-catalog. Each application is independent and has its own setup instructions. Follow the steps below to get each app up and running.
 

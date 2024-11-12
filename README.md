@@ -62,7 +62,7 @@ PORT=3001 npm start
 
 ## Additional Instructions for Running jstots_examples Files
 
-The `interview-prep/src/jstots_examples` folder contains older JavaScript/TypeScript example files used for practice. Each of these files can be executed directly from the command line using `tsx`, a tool that allows TypeScript execution in a Node environment.
+The `interview-prep/src/jstots_examples` folder contains older JavaScript/TypeScript example files used for practice. Each of these files can be executed directly from the command line using [tsx](https://www.npmjs.com/package/tsx), a tool that allows TypeScript execution in a Node environment.
 <br>
 
 ### Prerequisites

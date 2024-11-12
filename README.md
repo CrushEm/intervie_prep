@@ -80,7 +80,7 @@ tsx <filename>
 ```
 <br>
 
-Example:
+### Example:
 
 To run a file named example.ts in the jstots_examples folder, use:
 ```

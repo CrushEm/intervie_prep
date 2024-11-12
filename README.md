@@ -66,7 +66,7 @@ The `interview-prep/src/jstots_examples` folder contains older JavaScript/TypeSc
 <br>
 
 ### Prerequisites
-To run these examples, you need to have `tsx` installed globally or locally in the project.  If it’s not installed, you can add it globally by running:
+To run these examples, you need to have `tsx` installed globally or locally in the project.  If it’s not installed, add it with:
 ```
 npm install -g tsx
 ```

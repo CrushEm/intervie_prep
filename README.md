@@ -79,5 +79,6 @@ Example:
 To run a file named example.ts in the jstots_examples folder, use:
 ```
 cd interview-prep/src/jstots_examples
-ts-node example.ts
+tsx catagories_ex.ts
+```
 This will execute the TypeScript file directly in the command line.

@@ -32,7 +32,7 @@ cd interview-prep
 -- or --
 
 ```
-mini-product-catalog`
+cd mini-product-catalog
 
 ```
 
@@ -56,3 +56,28 @@ Both apps are set to run on the same port by default (http://localhost:3000). If
 ```
 PORT=3001 npm start
 ```
+
+
+## Additional Instructions for Running jstots_examples Files
+
+The 'interview-prep/src/jstots_examples' folder contains older JavaScript/TypeScript example files used for practice. Each of these files can be executed directly from the command line using tsx, a tool that allows TypeScript execution in a Node environment.
+
+### Prerequisites
+To run these examples, you need to have ts-node installed globally or locally in the project. If not installed, run:
+```
+npm install -g tsx
+```
+
+## Running Example Files
+To run a specific file from the 'jstots_examples' directory, navigate to 'interview-prep/src/jstots_examples' and use the following command:
+```
+tsx <filename>
+```
+
+Example:
+
+To run a file named example.ts in the jstots_examples folder, use:
+```
+cd interview-prep/src/jstots_examples
+ts-node example.ts
+This will execute the TypeScript file directly in the command line.

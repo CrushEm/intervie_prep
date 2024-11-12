@@ -1,14 +1,13 @@
 # README - Interview Prep
 
-This repository contains two separate applications: interview-prep and mini-product-catalog. Each application is independent and has its own setup instructions. Follow the steps below to get each app up and running.
+This repository contains two separate applications: `interview-prep` and `mini-product-catalog`. Each application is independent and has its own setup instructions. Follow the steps below to get each app up and running.
 <br><br>
 
 ## Overview
 
 This repository includes two separate applications:
-- Interview Prep - An app focused on preparing for type script part of coding interview.
-- Mini Product Catalog - A small product catalog application where I timed myself to complete.
-Each application can be set up and run individually by following the instructions below.
+- Interview Prep - An app focused on preparing for TypeScript part of coding interview.
+- Mini Product Catalog - A small product catalog application that I completed within a timed session to track my development speed and efficiency.
 <br><br>
 
 
@@ -63,13 +62,17 @@ PORT=3001 npm start
 
 ## Additional Instructions for Running jstots_examples Files
 
-The `interview-prep/src/jstots_examples` folder contains older JavaScript/TypeScript example files used for practice. Each of these files can be executed directly from the command line using tsx, a tool that allows TypeScript execution in a Node environment.
+The `interview-prep/src/jstots_examples` folder contains older JavaScript/TypeScript example files used for practice. Each of these files can be executed directly from the command line using `tsx`, a tool that allows TypeScript execution in a Node environment.
 <br>
 
 ### Prerequisites
-To run these examples, you need to have `tsx` installed globally or locally in the project. If not installed, run:
+To run these examples, you need to have `tsx` installed globally or locally in the project.  If it’s not installed, you can add it globally by running:
 ```
 npm install -g tsx
+```
+-- or --
+```
+npm install tsx
 ```
 <br>
 
@@ -82,7 +85,7 @@ tsx <filename>
 
 ### Example:
 
-To run a file named example.ts in the jstots_examples folder, use:
+To run a file example named catagories_ex.ts in the jstots_examples folder, use:
 ```
 cd interview-prep/src/jstots_examples
 tsx catagories_ex.ts
